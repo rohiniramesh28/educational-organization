@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light background color */
+}
+
+header, footer {
+    background-color: #0056b3; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+header:hover, footer:hover {
+    background-color: #003d7a; /* Slightly darker blue on hover */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+
+main {
+    padding: 30px;
+}
+
+form {
+    max-width: 350px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+    transition: transform 0.3s ease; /* Smooth form animation */
+}
+
+form:hover {
+    transform: scale(1.02); /* Slightly enlarge the form on hover */
+}
+
+label, input, select, button {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 4px; /* Rounded corners for inputs and buttons */
+}
+
+input, select {
+    border: 1px solid #ccc; /* Light border for inputs */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+input:focus, select:focus {
+    border-color: #0056b3; /* Blue border on focus */
+    outline: none;
+}
+
+button {
+    background-color: #0056b3; /* Blue background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Slightly larger font size */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth background and scale transition */
+}
+
+button:hover {
+    background-color: #003d7a; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
